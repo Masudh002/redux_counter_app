@@ -1,3 +1,15 @@
-.background{
-  background:red;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btnContainer{
+  margin-top: 20px;
+}
+.btn{
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
